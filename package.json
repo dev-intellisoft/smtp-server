@@ -1,0 +1,9 @@
+{
+  "name": "smtp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "smtp-server": "^3.9.0"
+  }
+}

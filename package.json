@@ -1,9 +1,15 @@
 {
   "name": "smtp-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "license": "MIT",
+  "scripts": {
+    "blah": "echo Hello World!",
+    "dev": "nodemon -w src  src/index.js --exec \"node src/index.js\""
+  },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "smtp-server": "^3.9.0"
   }
 }
